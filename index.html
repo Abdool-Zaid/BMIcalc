@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-<form onsubmit="event.preventDefault();calcBmi()">
-    <label for="weight"><h2>Your weight in kilogrammes</h2>
-    </label>
-    <input type="text" name="weight" id="weight" >
-    <label for="height"><h2>Your height in meters</h2>
-</label>
-    <input type="text" name="height" id="height">
-    <button type="submit">depress me</button>
-            </form>
-            <div id="AnswerContainer">
+    <div id="cal">
+
+        <form onsubmit="event.preventDefault();calcBmi()">
+            <label for="weight"><h2>Your weight in kilogrammes</h2>
+            </label>
+            <input type="text" name="weight" id="weight" >
+            <label for="height"><h2>Your height in meters</h2>
+            </label>
+            <input type="text" name="height" id="height">
+            <button type="submit">depress me</button>
+        </form>
+        <div id="AnswerContainer">
             <P>Your Bmi is</P>
             <h4 id="answer"></h4>        
-            </div>
+        </div>
+    </div>
 
 
    <script src="./scrypt.js"></script>         

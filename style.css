@@ -1,20 +1,60 @@
-*{
-    margin:0;
-  padding:0;
-  box-sizing:border-box;
-  }
-  :root{
-    --bg:#b4e4d7;
-  --ss:1%;
-  }
-  body{
-    background-color:var(--bg);
-  }
-  form{
-    margin:var(--ss);
-    padding:var(--ss);
-    display:flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: var(--sl);
+}
+:root {
+  --bg: #b4e4d7;
+  --sec: #d4b2eb;
+  --acc: #d1bd87;
+  --bgl: #f8fffda6;
+  --bgn:#b4e4d700;
+  --ss: 1%;
+  --sm: 1em;
+  --sl: 10vw;
+  --st:2em;
+  
+}
+body {
+  background-color: var(--bg);
+}
+form {
+  margin: var(--ss);
+  padding: var(--ss);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+#cal {
+  margin-top: var(--sm);
+  padding: var(--ss);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--sec);
+  margin-left: var(--sl);
+  margin-right: var(--sl);
+
+background: #d4b2eb;
+box-shadow:  35px 35px 70px #927ba2,
+             -35px -35px 70px #ffe9ff;
+}
+h4{
+  border: 2px solid var(--acc);
+  height: var(--sm);
+  background-color: var(--bgn);  
+}
+input{
+  background-color: var(--bgn);
+  margin: var(--ss);
+  padding: var(--ss);
+  height: var(--st);
+}
+button{
+  margin: var(--ss);
+  padding: var(--ss);
+  height: var(--st);
+}
